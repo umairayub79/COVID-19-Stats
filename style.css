@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+.container{
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+ul{
+    width: 90%;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+li{
+    margin: 20px;
+    padding: 10px;
+    color: black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.deaths{
+    color:red;
+}
