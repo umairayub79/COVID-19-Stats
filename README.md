@@ -2,6 +2,6 @@
 
 >This app uses [This API by @javieraviles ](https://github.com/javieraviles/covidAPI)
 
-## Visit Live Version [COVID-19 Stats](https://stats-covid19.netlify.com/)
+### Visit Live Version [COVID-19 Stats](https://stats-covid19.netlify.com/)
 
-# This app is made purely for educational purposes
+#### This app is made purely for educational purposes
