@@ -1,4 +1,7 @@
-COVID-19 Stats app
+# COVID-19 Stats app
 
-this app uses COVID API > 'https://github.com/javieraviles/covidAPI'
+>This app uses [This API by @javieraviles ](https://github.com/javieraviles/covidAPI)
 
+## Visit Live Version [COVID-19 Stats](https://stats-covid19.netlify.com/)
+
+# This app is made purely for educational purposes
