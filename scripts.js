@@ -1,5 +1,6 @@
 const URL = "https://coronavirus-19-api.herokuapp.com/countries"
 const list_element = document.getElementById("list");
+const container = document.getElementById('container');
 let countries_array = [];
 
 
@@ -7,7 +8,9 @@ let countries_array = [];
 fetch(URL)
     .then((res) => res.json())
     .then((data) => {
-        document.querySelector(".container").append("Countries infected " + data.length);
+        var child = document.getElementById("loading");
+        child.remove(child)
+        container.append("Countries infected " + data.length);
         loadList(data)
     })
 
@@ -20,7 +23,7 @@ fetch(URL)
             numberOfListItems = listData.length;
         
             // Add it to the page
-            document.getElementById('container').appendChild(listElement);
+            container.appendChild(listElement);
             
             for (i = 0; i < numberOfListItems; ++i) {
                 // create an item for each one
