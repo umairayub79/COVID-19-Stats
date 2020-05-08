@@ -16,23 +16,27 @@ body{
     color: white;
     height: 100%;
 }
+
 ul{
-    width: 90%;
-    padding-left: 0px;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 li{
     margin: 20px;
     padding: 10px;
     color: black;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 260px;
 }
 .deaths{
     color:red;
